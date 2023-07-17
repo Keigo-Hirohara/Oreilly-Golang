@@ -1,5 +1,7 @@
-package math
+package print
 
-func Double(a int) int {
-	return a * 2
+import "fmt"
+
+func Format(num int) string {
+	return fmt.Sprintf("数字は%dです", num)
 }
